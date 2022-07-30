@@ -393,23 +393,20 @@
                      </div>
                      <div class="col-md-6">
                         <ul class="block-topic">
-                           <li>Cameras + Gear</li>
-                           <li>Portraits</li>
-                           <li>Photography Foundations</li>
-                           <li>Retouching</li>
-                           <li>Raw Processing</li>
+                           <li>1. Cloud Computing</li>
+                           <li>2. AR/VR</li>
+                           <li>3. AI - ML</li>
+                          
                         </ul>
                      </div>
                      <div class="col-md-6">
                         <ul class="block-topic">
-                           <li>Night + Low Light</li>
-                           <li>Lighting</li>
-                           <li>Masking + Compositing</li>
-                           <li>HDR</li>
-                           <li>Color Correction</li>
+                           <li>4. Web Development using AWS</li>
+                           <li>5. Azure Cognitive Services</li>
+                           <li> 6. Database Management: Cloud SQL </li>
                         </ul>
                      </div>
-                  </div>
+                  </div><br>
                   <div class="col-md-6 col-sm-6">
                      <div class="block-video">
 						 <img src="img/vector/Asset%2011.svg" width="600px">
@@ -623,19 +620,19 @@
                <!--Row-->
                <div class="row vertical-align tickets">
                   <div class="col-sm-4 ">
-                     <h3 class="sub-title-0  mb-20"><span class="gradient-text">Your first conference</span><br> 
-                        <span class="gradient-text">day is for free</span>
+                     <h3 class="sub-title-0  mb-20"><span class="gradient-text">Get ready to experience...</span><br> 
+<!--                        <span class="gradient-text">day is for free</span>-->
                      </h3>
                      <div class="review-slider flexslider">
                         <ul class="slides">
                            <li>
-                              <blockquote>“ It’s an unlikely setting for an exquisite dining experience—served up by a couple straight out of a rom-com plot.“ </blockquote>
+                              <blockquote>“Cloud changed the way of computing“ </blockquote>
                            </li>
                            <li>
-                              <blockquote>“ The food is plentiful and delicious, it is all part of the "old world" sort of dining experience.“ </blockquote>
+                              <blockquote>“ A place where ideas meet reality, join us in the making of a new world...“ </blockquote>
                            </li>
                            <li>
-                              <blockquote>“ Huge portions, great food, fast service. This location obviously is always packed due to being in Times Sq.“ </blockquote>
+                              <blockquote>“Let's fly above the cloud of computing!“ </blockquote>
                            </li>
                         </ul>
                      </div>
@@ -645,10 +642,10 @@
                         <ul class="block-tickets overlap">
                            <li>
                               <ul class="block-ticket ">
-                                 <li class="block-price"><span class="price"><span class="cur">$</span>120</span><span class="block-type">1 Days ticket</span></li>
+                                 <li class="block-price"><span class="price"><span class="cur">$</span>0</span><span class="block-type">1 Days ticket</span></li>
                                  <li>Main Event speeche</li>
                                  <li>Limited areas access</li>
-                                 <li>Lunch on day 1</li>
+<!--                                 <li>Lunch on day 1</li>-->
                                  <li><a href="#" class="but mt-30"> Buy Ticket Now</a></li>
                               </ul>
                            </li>
@@ -658,10 +655,10 @@
                         <ul class="block-tickets">
                            <li>
                               <ul class="block-ticket active">
-                                 <li class="block-price"><span class="price"><span class="cur">$</span>590</span><span class="block-type">All Days ticket</span></li>
+                                 <li class="block-price"><span class="price"><span class="cur">$</span>0</span><span class="block-type">All Days ticket</span></li>
                                  <li>Main Events speeches</li>
                                  <li>Access to all areas</li>
-                                 <li>All days lunch</li>
+<!--                                 <li>All days lunch</li>-->
                                  <li><a href="#" class="but mt-30"> Buy Ticket Now</a></li>
                               </ul>
                            </li>
@@ -684,42 +681,51 @@
                <!--Row-->
                <div class="row">
                   <div class="col-md-6 front-p">
-                     <form class="registry-form form" method="post" action="#">
-                        <h2 class="sub-title-1 mb-30">Drop a message!</h2>
-						<div class="col-sm-6">
-                           <input placeholder="Your Name" value="" id="name" name="name" type="text" required>
+                     <form id="myForm" class="registry-form form" method="post" action="#">
+                        <h2 class="sub-title-1 mb-30">Drop a Message!</h2>
+                        <div class="col-sm-6">
+                           <input placeholder="Your E-mail" value="" id="name" name="email" type="text" required>
                         </div>
                         <div class="col-sm-6">
-                           <input placeholder="Your Email" value="" id="email" name="email" type="text" required>
+                           <input placeholder="Name" value="" id="email" name="name" type="text" required>
                         </div>
-						  <div class="col-sm-6">
-                           <input placeholder="Message" value="" id="email" name="email" type="text" required>
-                        </div>
-                       
-						 
-
-<!-- 
                         <div class="col-sm-6">
-                           <div class="block-select">
-                              <select required>
-                                 <option value="">Choose Ticket</option>
-                                 <option value="120">One Day Ticket</option>
-                                 <option value="590">All Days Ticket</option>
-                              </select>
-                           </div>
+                           <input placeholder="Message" value="" id="email" name="message" type="text" required>
                         </div>
--->
+                        
                         <div class="col-sm-12">
-                           <a href="mailto:cloudsummit@jecrc.ac.in"><input value="Send Now" class=" but submit" type="submit">
-							</a></div>
-                        <div class="col-sm-12">
-<!--                           <p>* We don’t share your information with anyone.</p>-->
+                    
                         </div>
                      </form>
+                     <center><div class="col-sm-12">
+                        <input value="Send" onclick='SubForm()' class=" but submit" type="submit">
+                     </div></center>
                   </div>
                </div>
+					  
+					  <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+               crossorigin="anonymous"></script>
+               <script>
+         function SubForm (){
+               $.ajax({
+                  url:"https://api.apispreadsheets.com/data/Pb0CSB6ifHbcWfKJ/",
+                  type:"post",
+                  data:$("#myForm").serializeArray(),
+                  success: function(){
+                     alert("Form Data Submitted :)")
+                  },
+                  error: function(){
+                     alert("There was an error :(")
+                  }
+               });
+            }
+              </script>
+					  
+					  
+                  </div>
+<!--               </div>-->
                <!--End row-->
-            </div>
+<!--            </div>-->
             <!--End container-->
          </section>
          <!--End register section-->
@@ -825,17 +831,18 @@
                <!--Row-->
                <div class="row">
                   <div class="col-sm-8 col-sm-offset-2  ">
-                     <div class="block-faq mb-50">
-                        <h4 class="mb-10">What is web marketing ?</h4>
-                        <p>Web marketing refers to a broad category of advertising that takes many different forms, but generally involves any marketing activity conducted online. Marketers have shifted their efforts online because it tends to be significantly less expensive.</p>
+					    <div class="block-faq mb-50">
+                        <h4 class="mb-10">What benefits does this summit provide attendees?</h4>
+                        <p>Attendees will hear the latest announcements about how organizations is continuing to invest and developing the ecosystem with tailored programs and offers. They will gain perspectives on trends from top investors, innovative founders, knowledgeable speakers and technical change-makers that can help them to unlock their own potential and accelerate their career transformation.  </p>
                      </div>
                      <div class="block-faq mb-50">
-                        <h4 class="mb-10">What is digital advertising ?</h4>
-                        <p>Digital advertising, also called Internet advertising ("Internet marketing") is when businesses leverage Internet technologies to deliver promotional advertisements to consumers. </p>
+                        <h4 class="mb-10">Who registers for the Summit? Is it right for me?</h4>
+                        <p>People from all over the world and from all different backgrounds attend the JCS Summit! And it’s not just technical writers who attend—project managers, consultants, content architects, web managers, professors, content strategists, developers, illustrators, and policy writers are just some of the many people you’ll meet at the Summit.</p>
                      </div>
+                   
                      <div class="block-faq mb-50">
-                        <h4 class="mb-10">What is Internet marketing ?</h4>
-                        <p>Internet marketing, or online marketing, refers to advertising and marketing efforts that use the Web and email to drive direct sales via electronic commerce, in addition to sales leads from Web sites or emails. Internet marketing and online advertising efforts are typically used in conjunction with traditional.</p>
+                        <h4 class="mb-10">What steps are you taking to ensure COVID safety?</h4>
+                        <p>JCS is monitoring the guidelines from the Rajasthan Government, as well as the JECRC Foundation. JCS will provide Summit attendees with a comfortable conference environment. This includes how education session rooms/halls are set, how food and beverage items are served, and cleaning policies of the area.</p>
                      </div>
                   </div>
                </div>
@@ -875,9 +882,9 @@
                   <div class="col-md-5 col-md-offset-7 col-sm-5 col-sm-offset-7">
                      <div class="block-info-3">
                         <p>
-                           Plot No. IS-2036 to IS-2039 Ramchandrapura Industrial Area Jaipur, Sitapura, Vidhani, Rajasthan - 303905.<br>
-                           Phone: xxx <br>
-<!--                           Fax:  (513) 352-6220 <br>-->
+                           Plot No. IS-2036 to IS-2039 Ramchandrapura Industrial Area Jaipur, Sitapura, Vidhani, Rajasthan - 303905.<br><br>
+                           Phone 1: +91 - 9264976915 <br>
+                           Phone 2: +91 - 90012 25410<br>
                            Email : <a href="mailto:cloudsummit@jecrc.ac.in" class="gradient-text">cloudsummit@jecrc.ac.in</a>
                         </p>
                      </div>
