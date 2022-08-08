@@ -130,6 +130,14 @@
     margin-top: 0;
 }
 
+.but-text{
+    font-size: 25px;
+}
+
+.but-space{
+    margin-top: 35px;
+}
+
 
 
 
@@ -183,6 +191,10 @@
     align-items: center;
 }
 
+footer{
+    width: 100vw;   
+}
+
 }
  
 @media (min-width: 356px) {
@@ -214,7 +226,6 @@
     }
 
     .btn3 {
-        background: linear-gradient(to bottom, #cbcbcb 2%, rgb(248, 224, 224) 100%);
 
         margin-left: 25vw;
         padding: 15px 15px;
@@ -223,11 +234,11 @@
         border: none;
         outline: none;
         text-transform: uppercase;
-        color: #1b1b1b;
+
         font-size: 25px;
         font-weight: 700;
         border-radius: 30px;
-        box-shadow: 1px 4px 12px rgba(94, 28, 68, .15);
+ 
     }
 
     .res-heading{
@@ -243,6 +254,7 @@
         height: 90px;
         width: auto;
     }
+    
 }
 
 
