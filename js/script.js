@@ -90,7 +90,7 @@
 
     // Count down setup
 
-    $('.countdown').countdown('2022/9/12', function(event) {
+    $('.countdown').countdown('2022/9/23', function(event) {
         $(this).html(event.strftime('%D days %H:%M:%S'));
     });
 
