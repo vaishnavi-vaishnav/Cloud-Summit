@@ -10,8 +10,8 @@ body{
 h2{
     color: linear-gradient(45deg, rgba(57, 155, 255, 1) 0%, rgba(238, 113, 249, 1) 100%);
 }
-input[type="text"]{
-    background: rgba(7, 7, 28, 0.6);
+input[type="text1"]{
+    background: rgba(255, 255, 255, 0.6);
     border: 1px solid rgba(255, 255, 255, 0.1);
     margin-bottom: 25px;
     outline: 0 none;
