@@ -402,6 +402,23 @@ h1.large {
 }
 /* End about section*/
 
+/* Guest of honor */
+/* .guesthead{
+    display: flex;
+    justify-content: center;    
+} */
+@media (min-width: 450px){
+    .guesthead{
+        position: relative;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
 
 /* Speakers section*/
 
