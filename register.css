@@ -19,7 +19,7 @@ input[type="text1"]{
     padding: 0 25px;
     resize: none;
     max-width: 90%;
-    border-radius: 25px;
+    border-radius: 10px;
     -webkit-border-radius: 25px;
     -moz-border-radius: 25px;
     -ms-border-radius: 25px;
