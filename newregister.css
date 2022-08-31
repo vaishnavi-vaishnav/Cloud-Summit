@@ -83,6 +83,19 @@ label {
   border-radius: 3px;
 }
 
+input[type="text"]{
+  width: 100%;
+  padding: 15px;
+  font-size: 14px;
+  background: #23252f;
+  color: white;
+  border: solid 1px
+px
+#464856;
+  outline: none;
+  border-radius: 3px;
+}
+
 .textarea {
   display: flex;
   flex-direction: column;
