@@ -146,7 +146,7 @@ section.single-hero {
 .background-img {
     background-attachment: scroll;
     background-clip: border-box;
-    background-color: #5E6B9B;
+    background-color: #313144;
     background-image: none;
     background-origin: padding-box;
     background-position: 50% 50% !important;
@@ -411,10 +411,19 @@ h1.large {
     .guesthead{
         position: relative;
         min-height: 1px;
-        padding-right: 15px;
-        padding-left: 15px;
+
+/*        display:block;*/
+		top: -40px;
+/*		margin: 0 auto;*/
+/*		height: auto;*/
         display: flex;
-        justify-content: center;
+/*		top:50%;*/
+/*		left: 35%;*/
+/*
+		bottom: 50%;
+		right: 35%;
+*/      
+		justify-content: center;
     }
 }
 
@@ -1093,6 +1102,7 @@ select.error {
     }
     .location {
         padding-top: 100px !important;
+		background-color: #07071c;
         padding-bottom: 100px !important;
     }
     .accom .block-img {
@@ -1259,7 +1269,9 @@ select.error {
         width: 100%;
     }
     .location {
-        padding-top: 100px !important;
+        padding-top: 100px 
+			!important;
+		background-color: #07071c;
         padding-bottom: 100px !important;
     }
     .accom .block-img {
@@ -1577,3 +1589,14 @@ select.error {
     display: block;
     text-align: center;
 }
+
+
+.containerr {
+	  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+	
+}
+
+
