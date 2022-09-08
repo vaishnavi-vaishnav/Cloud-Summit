@@ -7,7 +7,7 @@
 	5.Misc
 
 
-/* Reset & Basics (Inspired by E. Meyers) */
+/* Reset & Basics (Ingspired by E. Meyers) */
 
 *,
 *:before,
@@ -295,6 +295,19 @@ blockquote {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: #399bff;
+    
+
+}
+
+.gradient-text1 {
+    background: -webkit-linear-gradient(45deg, rgba(57, 155, 255, 1) 0%, rgba(238, 113, 249, 1) 100%);
+    background: -moz-linear-gradient(45deg, rgba(57, 155, 255, 1) 0%, rgba(238, 113, 249, 1) 100%);
+    background: linear-gradient(left, #399bff 30%, rgba(238, 113, 249, .9) 65%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #399bff;
+    font-size: 1.7rem;
+    
 }
 p.title-lead {
     font-size: 19px;
