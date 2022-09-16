@@ -125,6 +125,12 @@
 /*End site wrapper*/
 
 
+/*mentor */
+.mentorpara{
+    font-size: 1rem;
+}
+
+
 /* Hero Section*/
 
 section.hero {
@@ -378,6 +384,23 @@ h1.large {
 	}
 /* End hero section*/
 
+.mentorpara p{
+    font-size: 1.4rem;
+    margin-bottom: 0px;
+    margin: 10px;
+}
+
+@media(max-width:768px){
+    .mentorpara p{
+        font-size: 0.7rem;
+    }
+}
+
+@media(max-width:500px){
+    .mentorpara p{
+        font-size: 0.4rem;
+    }
+}
 
 /* About section*/
 
