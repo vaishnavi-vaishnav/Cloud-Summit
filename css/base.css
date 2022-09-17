@@ -7,7 +7,7 @@
 	5.Misc
 
 
-/* Reset & Basics (Inspired by E. Meyers) */
+/* Reset & Basics (Ingspired by E. Meyers) */
 
 *,
 *:before,
@@ -258,12 +258,12 @@ blockquote {
   text-shadow:
 /*      0 0 7px #399bd4,*/
 /*      0 0 10px #5E6B9B,*/
-      0 0 21px #399bd4,
+      0 0 21px #fff,
 /*      0 0 42px #0fa,*/
 /*      0 0 82px #0fa,*/
 /*      0 0 92px #0fa,*/
 /*      0 0 102px #0fa,*/
-      0 0 151px #399bd4;
+      0 0 151px #fff;
 /*    text-transform: capitalize;*/
 }
 .sub-title-0 {
@@ -295,6 +295,19 @@ blockquote {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: #399bff;
+    
+
+}
+
+.gradient-text1 {
+    background: -webkit-linear-gradient(45deg, rgba(57, 155, 255, 1) 0%, rgba(238, 113, 249, 1) 100%);
+    background: -moz-linear-gradient(45deg, rgba(57, 155, 255, 1) 0%, rgba(238, 113, 249, 1) 100%);
+    background: linear-gradient(left, #399bff 30%, rgba(238, 113, 249, .9) 65%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #399bff;
+    font-size: 1.7rem;
+    
 }
 p.title-lead {
     font-size: 19px;
@@ -331,7 +344,7 @@ section,
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
     -ms-border-radius: 6px;
-    -o-border-radius: : 6px;
+    -o-border-radius:  6px;
 }
 .indent {
     text-indent: -999px;
@@ -414,6 +427,22 @@ p a:after {
     -o-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1);
     width: 100%;
 }
+
+.block-content .block-img .background-img {
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+    -moz-filter: grayscale(1);
+    -ms-filter: grayscale(1);
+    -o-filter: grayscale(1);
+}
+.block-content .block-img:hover .background-img {
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+    -moz-filter: grayscale(0);
+    -ms-filter: grayscale(0);
+    -o-filter: grayscale(0);
+}
+
 a,
 input[type="text"],
 input[type="submit"] textarea,
@@ -434,6 +463,8 @@ input[type="submit"] textarea,
     -ms-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
 }
+
+
 .but {
     display: inline-block;
     position: relative;
@@ -443,8 +474,9 @@ input[type="submit"] textarea,
     -webkit-border-radius: 25px;
     -moz-border-radius: 25px;
     -ms-border-radius: 25px;
-    -o-border-radius: : 25px;
+    -o-border-radius: 25px;
 }
+
 a.link {
     position: relative;
     display: inline-block;
@@ -466,7 +498,10 @@ span a:after,
 p a:after {
     background: rgb(57, 155, 255);
     /* Old browsers */
-    
+  background-color: #286090;
+/*  border-color: #204d74;*/
+
+	transition: 0.5s;
 /*    background: -moz-linear-gradient(45deg, rgba(57, 155, 255, 1) 0%, rgba(238, 113, 249, 1) 100%);*/
     /* FF3.6-15 */
     
@@ -591,7 +626,7 @@ p a:after {
 }
 .pb-200 {
     padding-bottom: 110px !important;
-	background: #050511;
+	background-color: #07071c;
 	padding-top: 100px !important;
 }
 .pt-250 {

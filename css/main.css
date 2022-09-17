@@ -12,7 +12,7 @@
 	9.Tickets section
 	10.Registry section
 	11.Sponsors section
-	12.Contact section
+	12.Contact sectionbac
 	13.Accommodation section
 	14.FAQ section
 	15.Gallery section
@@ -125,6 +125,12 @@
 /*End site wrapper*/
 
 
+/*mentor */
+.mentorpara{
+    font-size: 1rem;
+}
+
+
 /* Hero Section*/
 
 section.hero {
@@ -146,7 +152,7 @@ section.single-hero {
 .background-img {
     background-attachment: scroll;
     background-clip: border-box;
-    background-color: #5E6B9B;
+    background-color: #313144;
     background-image: none;
     background-origin: padding-box;
     background-position: 50% 50% !important;
@@ -378,6 +384,23 @@ h1.large {
 	}
 /* End hero section*/
 
+.mentorpara p{
+    font-size: 1.4rem;
+    margin-bottom: 0px;
+    margin: 10px;
+}
+
+@media(max-width:768px){
+    .mentorpara p{
+        font-size: 0.7rem;
+    }
+}
+
+@media(max-width:500px){
+    .mentorpara p{
+        font-size: 0.4rem;
+    }
+}
 
 /* About section*/
 
@@ -401,6 +424,32 @@ h1.large {
     margin-left: 60px;
 }
 /* End about section*/
+
+/* Guest of honor */
+/* .guesthead{
+    display: flex;
+    justify-content: center;    
+} */
+@media (min-width: 450px){
+    .guesthead{
+        position: relative;
+        min-height: 1px;
+
+/*        display:block;*/
+		top: -40px;
+/*		margin: 0 auto;*/
+/*		height: auto;*/
+        display: flex;
+/*		top:50%;*/
+/*		left: 35%;*/
+/*
+		bottom: 50%;
+		right: 35%;
+*/      
+		justify-content: center;
+    }
+}
+
 
 
 /* Speakers section*/
@@ -1076,6 +1125,7 @@ select.error {
     }
     .location {
         padding-top: 100px !important;
+		background-color: #07071c;
         padding-bottom: 100px !important;
     }
     .accom .block-img {
@@ -1242,7 +1292,9 @@ select.error {
         width: 100%;
     }
     .location {
-        padding-top: 100px !important;
+        padding-top: 100px 
+			!important;
+		background-color: #07071c;
         padding-bottom: 100px !important;
     }
     .accom .block-img {
@@ -1554,4 +1606,99 @@ select.error {
 
 .bottom{
 	bottom: -40px;
+}
+.datevid-apr{
+    margin: auto 0px;
+    display: block;
+    text-align: center;
+}
+
+
+.containerr {
+	  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+	
+}
+.platinum-img{
+    width: 40%;
+}
+.sponsorwall{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.sponsorListHolder{
+    margin-bottom:30px;
+}
+.sponsorListHolder{
+	margin-bottom:30px;
+}
+
+.sponsor{
+	width:180px;
+	height:180px;
+	float:left;
+	margin:4px;
+	
+	/* Giving the sponsor div a relative positioning: */
+	position:relative;
+	cursor:pointer;
+}
+
+.sponsorFlip{
+	/*  The sponsor div will be positioned absolutely with respect
+		to its parent .sponsor div and fill it in entirely */
+
+	position:absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	border:1px solid #ddd;	
+	background:url("img/background.png") no-repeat center center rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.sponsorFlip:hover{
+	border:1px solid #f9f9f9;
+	
+	/* CSS3 inset shadow: */
+	-moz-box-shadow:0 0 30px #f9f9f9 inset;
+	-webkit-box-shadow:0 0 30px #f9f9f9 inset;
+	box-shadow:0 0 30px #f9f9f9 inset;
+}
+
+.sponsorFlip img{
+	/* Centering the logo image in the middle of the sponsorFlip div */
+	
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin:-70px 0 0 -70px;
+}
+
+.sponsorData{
+	/* Hiding the .sponsorData div */
+	display:none;
+}
+
+.sponsorDescription{
+	font-size:12px;
+	padding:10px 10px 20px 20px;
+	font-style:italic;
+    color: #050511;
+}
+
+.sponsorURL{
+	font-size:10px;
+	font-weight:bold;
+	padding-left:20px;
+}
+
+.clear{
+	/* This class clears the floats */
+	clear:both;
 }
