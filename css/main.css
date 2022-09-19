@@ -385,20 +385,21 @@ h1.large {
 /* End hero section*/
 
 .mentorpara p{
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     margin-bottom: 0px;
     margin: 10px;
 }
 
 @media(max-width:768px){
     .mentorpara p{
-        font-size: 0.7rem;
+        margin-top: 1.5px;
+        font-size: 0.4px;
     }
 }
 
 @media(max-width:500px){
     .mentorpara p{
-        font-size: 0.4rem;
+        font-size: 0.3px;
     }
 }
 
