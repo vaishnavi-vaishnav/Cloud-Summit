@@ -21,8 +21,6 @@
 
 
 
-
-
 /*Preloader*/
 
 .loader {
@@ -348,7 +346,9 @@ h1.large {
     font-weight: 700;
     text-transform: none;
 }
-
+.large_image{
+    margin-top: 200px;
+}
 .hero-content h3 {
 /*    font-style: italic;*/
     font-size: 40px;
@@ -393,13 +393,13 @@ h1.large {
 @media(max-width:768px){
     .mentorpara p{
         margin-top: 1.5px;
-        font-size: 0.4px;
+        font-size: 0.3px;
     }
 }
 
 @media(max-width:500px){
     .mentorpara p{
-        font-size: 0.3px;
+        font-size: 0.2px;
     }
 }
 
